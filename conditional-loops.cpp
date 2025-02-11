@@ -103,28 +103,32 @@ int main(){
 
 
  ////check no is prime or not
- 
-    int n=17;
-    bool isprime=true;
 
-    for(int i=2; i<=n-1;i++){
-        if(n%i==0){
-            isprime=false;
-            break;
 
-        }
+// for(int i=1;i<=5;i++){
+//     int n=50;
+//     for(int j=1;j<=n;j++){
+//         cout<<"*";
+//     }
+//     cout<<endl;
+
+// }
+
+
+////    
+
+int n=10;
+int sum=0;
+for(int i=1;i<=n;i++){
+    if (i%3==0){
+        sum+=i;
     }
-    if(isprime ==true){
-        cout<<"prime number"<<endl;
-
-    }else{
-        cout<<"not prime number"<<endl;
-    }
-    return 0;
- 
-    
-
-    
-    }
+    // else{
+    //     i+;
+    // }
+    cout<<sum<<endl;
+}
 
 
+
+}
