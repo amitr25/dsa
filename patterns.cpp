@@ -87,6 +87,8 @@ int main(){
     //     cout<<endl;
     // }
 
+////floyd's triangle pattern
+
 
     // int n=5;
     // int count=1;
@@ -103,20 +105,63 @@ int main(){
     // }
 
 
+    // int n=5;
+    // char ch='A';
+    // for(int i=0;i<n;i++){
+    //     for(int j=0;j<i+1;j++){
+    //         cout<<ch<<" ";
+    //         ch++;
+    //     }
+    //     cout<<endl;
 
-    int n=5;
+    // }
+
+
+
+
+    // int n=5;
     
     
     
+    // for(int i=0;i<n;i++){
+        
+    //     for(int j=0;j<i+1;j++){
+            
+    //         cout<<j<<" ";
+            
+            
+    //     }
+        
+    //     cout<<endl;
+    // }
+
+
+    ////reverse triangle pattern
+    // int n=4;
+    
+    // for(int i=0;i<n;i++){
+    //     for(int j=i+1;j>0;j--){
+    //         cout<<j<<" ";
+            
+    //     }
+    //     cout<<endl;
+    // }
+
+
+
+    ////inverted triangle pattern
+
+    int n=4;
     for(int i=0;i<n;i++){
-        
-        for(int j=0;j<i+1;j++){
-            
-            cout<<j<<" ";
-            
-            
+        for(int j=0;j<i;j++){
+            cout<<" ";
         }
-        
+
+
+        for(int j=0;j<n-i;j++){
+            cout<<i+1;
+
+        }
         cout<<endl;
     }
     
